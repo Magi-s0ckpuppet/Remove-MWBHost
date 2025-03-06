@@ -48,7 +48,7 @@ For more information on getting setup, visit the official [ThreatDown documentat
 
 - Give a comma-seperated list of hostnames to remove, using the `-Hosts` parameter
 ```
-.\Remove-MWBHost.ps1 -ConfigJSON .\config.json -Hosts 'CLIENT02, SERVER01, SERVER11'
+.\Remove-MWBHost.ps1 -ConfigJSON .\config.json -Hosts 'CLIENT02, SERVER01, SERVER1'
 ```
 
 - Put hostnames to remove in a text file, going line by line for each hostname value, using the `-HostsFile` parameter
